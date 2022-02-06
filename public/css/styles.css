@@ -1,0 +1,349 @@
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+a:link 
+{
+color: black;
+text-decoration: none
+}
+
+a:visited 
+{
+color: black;
+text-decoration: none;
+}
+
+.logo
+{
+margin-top: 20px;
+margin-left: 26%;
+width: 50%;
+}
+
+header
+{
+display: block;
+background-color: #EAC926;
+width: 100%;
+}
+
+body
+{
+background: #ebebeb;
+font-family: 'Roboto', sans-serif;
+}
+
+h2 
+{
+font-size: 24px;
+color: #666;
+display: flex;
+justify-content: left;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.forma-de-pago
+{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 12px;
+}
+
+.opciones
+{
+display: block;
+margin-top: 20px;
+margin-left: 20px;
+font-size: 12px;
+}
+
+.precios
+{
+font-size: 18px;
+color: black;
+margin-top: 14px;
+}
+
+.descuentos
+{
+font-size: 16px;
+color: #39b54a;
+margin-left: 180px;
+margin-top: -10px;
+}
+
+.descripciones
+{
+font-size: 16px;
+color: #666;
+margin-top: 8px;
+}
+
+.textos
+{
+color: #666;
+font-size: 12px;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-left: 90px;
+margin-right: 116px;
+display: inline-block;
+text-align: center;
+}
+
+.burger-menu
+{
+text-align: center;
+}
+
+.burger-menu i
+{
+color: #FFF;
+background-color: #0044AA;
+font-size: 20px;
+width: 40px;
+height: 40px;
+border-radius: 5px;
+margin: 5px 0px 20px 0px;
+padding: 10px;
+}
+
+.lupa
+{
+color: black;
+display: flex;
+}
+
+.buscador
+{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.iconos
+{
+color: #03264C;
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 20px;
+}
+
+.cr
+{
+color: #666;
+font-size: 12px;
+display: flex;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+.banner
+{
+display: flex;
+width: 100%;
+}
+
+main section div img 
+{
+width: 100%;
+display: inline-block;
+}
+
+main
+{
+width: 90%;
+margin: 20px;
+}
+
+main section div .caja-prod
+{
+position: relative;
+align-items: baseline;
+border-top: 1px solid #ebebeb;
+margin-top: 5px;
+margin-left: 10px;
+}
+
+section.ult-vis
+{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+section.ofer
+{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+main section div
+{
+display: inline-block; 
+background-color: #FFF;  
+width: 260px;
+height: 360px; 
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+main section article i
+{
+color: #39b54a;
+}
+
+main section article i
+{
+width: 30px;
+height: 30px;
+display: block;
+font-size: 16px;
+padding: 5px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+margin-top: -15px;
+margin-left: 200px;
+}
+
+.campos
+{
+margin-top: 15px;
+}
+
+.campos :placeholder-shown
+{
+width: 240px;
+height: 32px;
+border-color: transparent;
+}
+
+.campos ::placeholder
+{
+color: black;
+margin-left: 150px;
+position: absolute;
+top: 8px;
+left: -140px;
+font-size: 14px;
+}
+
+form p.campos input
+{
+width: 240px;
+height: 32px;
+border-color: transparent;
+}
+
+.tit-reg
+{
+margin: 10px 0px 10px 34px;
+text-decoration: underline black;
+}
+
+input.fecha
+{
+width: 240px;
+height: 32px;
+border: transparent;
+}
+
+.opc
+{
+position: relative;
+margin-left: 38px;
+margin-top: 10px;
+}
+
+.botones
+{
+margin-top: 25px;
+margin-left: 0px;
+width: 240px;
+height: 32px;
+border-color: black;
+border-style: dotted;
+color: black;
+background-color: #FFF;
+border-radius: 10px;
+}
+
+.bot 
+{
+margin-top: 25px;
+margin-left: 0px;
+width: 240px;
+height: 32px;
+border-style: dotted;
+border-color: black;
+color: black;
+background-color: #FFF;
+border-radius: 10px;
+}
+
+.tit-log
+{
+margin: 16px 0px 10px 60px;
+text-decoration: underline black;
+}
+
+ul 
+{
+display: none;
+position: relative;
+top: -20px;
+left: -10px;
+}
+  
+input:checked  ~ ul
+{
+display: block;
+}
+
+input#menu 
+{
+display: none;
+}
+
+.bur-menu 
+{
+text-align: center;
+}
+
+main section article i:hover
+{
+transform: rotate(-90deg);
+}
+
+.productos .descripciones
+{
+visibility: hidden;
+}
+
+.productos:hover .descripciones
+{
+visibility: visible;
+}
+
+button.bot:hover
+{
+background-color: #0022AA;
+}
+
+.iconos:hover
+{
+color: goldenrod;
+}
+
+
+
+

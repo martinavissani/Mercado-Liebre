@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mercado Liebre </title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    
+        <header> 
+                  
+                  <a href="/"> <img class="logo" src="/images/logo-mercado-liebre.svg"> </a> 
+
+                  <ul class="buscador">
+                  <li type="none"> <input name="busqueda" placeholder="Buscar productos, marcas"> </li>
+                  <li type="none" class="lupa"> <button type="button"> <i class="fas fa-search"> </i> </button> </li>
+                  </ul>
+
+                  <div class="forma-de-pago"> 
+                  <i class="fas fa-hand-holding-usd"> </i> Comprá en cuotas y sin tarjeta de crédito 
+                  </div>
+        
+                  <nav class="bur-menu">
+                  <input type="checkbox" id="menu">
+                  <label for="menu" class="burger-menu"> <i class="fas fa-bars 2x-fa"> </i> </label>
+                  <ul class="bur-menu">
+                  <span class="opciones">
+                  <li type="none"> <a href="#"> Ofertas </a> </li>
+                  <li type="none"> <a href="#"> Tiendas Oficiales </a> </li>
+                  <li type="none"> <a href="#"> Vender </a> </li>
+                  <li type="none"> <a href="#"> Ayuda </a> </li>
+                  <li type="none"> <a href="/registro"> Creá tu cuenta <i class="far fa-id-card"> </i> </a> </li>
+                  <li type="none"> <a href="/ingreso"> Ingresá <i class="fas fa-sign-in-alt"> </i> </a> </li>
+                  <li type="none"> <a href="#"> Mis compras <i class="fas fa-shopping-basket"> </i> </a> </li>
+                  </ul>
+                  </nav>
+
+        </header>
+
+        <main>
+
+        <p class="tit-reg"> Información general: </p>
+
+        <form action="/registro" method="POST">
+
+        <p class="campos"> 
+        <input type="text" name="Nombre" placeholder="Nombre" required>
+        </p>
+
+        <p class="campos">
+        <input type="text" name="Apellido" placeholder="Apellido" required>
+        </p>
+
+        <p class="campos">
+        <input type="text" name="Usuario" placeholder="Usuario" required>
+        </p>
+ 
+        <p class="campos">
+        <input type="email" name="Email" placeholder="E-mail" required>
+        </p>
+
+        <p class="campos">
+        <input type="text" name="Direccion" placeholder="Dirección" required>
+        </p>
+
+        <p class="tit-reg"> Fecha de Nacimiento: </p>
+
+        <p class="campos">
+        <input class="fecha" type="date" name="FechaDeNacimiento" required>
+        </p>
+
+        <p class="tit-reg"> Elegí tu contraseña: </p>
+
+        <div class="contraseña">
+
+        <p class="campos">
+        <input type="password" name="pass" placeholder="Contraseña" required>
+        </p>
+
+        <p class="campos">
+        <input type="password" name="pass" placeholder="Contraseña nuevamente" required>
+        </p>
+
+        </div>
+
+        <p class="tit-reg"> Perfil del usuario: </p>
+
+        <div class="campos">
+        <p class="opc"> 
+        <input type="radio" name="tipo-perfil" value="comprador" id="comprador" required>
+        <label for="comprador"> Comprador </label>
+        </p>
+        <p class="opc">
+        <input type="radio" name="tipo-perfil" value="vendedor" id="vendedor" required>
+        <label for="vendedor"> Vendedor </label>
+        </p>
+        </div>
+
+        <p class="tit-reg"> Intereses: </p>
+
+        <div class="campos">
+
+        <p class="opc">
+        <input type="checkbox" name="intereses" value="electro" id="electro">
+        <label for="electro"> Electro </label>
+        </p>
+
+        <p class="opc">
+        <input type="checkbox" name="intereses" value="moda" id="moda">
+        <label for="moda"> Moda </label>
+        </p>
+
+        <p class="opc">
+        <input type="checkbox" name="intereses" value="hogar" id="hogar">
+        <label for="hogar"> Hogar </label>
+        </p>
+
+        <p class="opc">
+        <input type="checkbox" name="intereses" value="jugueteria" id="jugueteria">
+        <label for="jugueteria"> Juguetería </label>
+        </p>
+
+        <p class="opc">
+        <input type="checkbox" name="intereses" value="vida-sana" id="vida-sana">
+        <label for="vida-sana"> Vida Sana </label>
+        </p>
+
+        </div>
+
+        <p class="tit-reg"> Elegí tu foto de perfil: </p> 
+
+        <p>
+        <input type="file" name="foto-perfil" required>
+        </p>
+
+        <p> 
+        <button type="submit" class="botones"> Registrarme </button> 
+        </p>
+
+        <p> 
+        <button type="reset" class="botones"> Borrar todo </button> 
+        </p>
+
+        </form>
+
+        </main>
+
+    
